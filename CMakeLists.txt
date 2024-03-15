@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(Untwine VERSION 1.3.1 LANGUAGES CXX)
 include(FeatureSummary)
 include(${PROJECT_SOURCE_DIR}/cmake/compiler_options.cmake)
+include(${PROJECT_SOURCE_DIR}/cmake/_cpack.cmake)
 
 option(WITH_TESTS
     "Choose if Untwine unit tests should be built" TRUE)
